@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 소개</title>
+    <style>
+        body { background-color: powderblue; color: green;
+        margin-left: 40px; margin-right: 40px;}
+        h1 { text-align: center; color: blue;}
+        hr { height: 5px; background-color: gray; border:  solid gray; margin-bottom: 40px;}
+        span { font-size: 20px; color: brown; font-weight: bold;}
+    </style>
+    <script>
+        function show() { 
+            document.getElementById("fig").src="moomin.png";
+        }
+        function hide() { 
+            document.getElementById("fig").src="";
+        }
+    </script>
+</head>
+<body>
+    <h1 onmouseenter="show()" onmouseout="hide()">슈렉</h1>
+    <hr>
+    <div><img id="fig" src=""> </div>
+    저는 대한민국에서 태어나서 컴퓨터 공학을 전공하는 학생입니다. 
+    제가 제일 좋아하는 과목은 <span>웹 프로그래밍</span>이고, 
+    그 중에 서도 <span>자바스크립트</span>를 제일 잘합니다.
+</body>
+</html>
